@@ -44,7 +44,7 @@ for x in range(0,all_week/de):
     
         random_pick = random.sample(names, 4)
         
-        
+        # 결과 표시
         print(str((x*4)+(week+1))+"주차 발표자는 '" +random_pick[0]+"', '"+random_pick[2] +"', 함께읽기는 '"+random_pick[1]+"', '"+random_pick[3]+ "' 입니다.")
         
         clear = random_pick
